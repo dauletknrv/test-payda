@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/style.css" type="text/css" rel="stylesheet">
+	 <link href="css/gilroy.css" type="text/css" rel="stylesheet">
+	 <script src="js/script.js"></script>
+	<title>Тестовое задание</title>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<div class="top-navbar">
+				<div class="navbar-logo"></div>
+				<div class="navbar-search">
+					<input class="search-input" type="text" placeholder="Поиск" class="search-input">
+					<button class="search-button"></button>
+				</div>
+
+				<div class="navbar-location">
+					<div class="location-svg"></div>
+					<span class="location-title">Алматы</span>
+				</div>
+				<div id="id_clock"></div>
+    			<script>digitalClock();</script>
+				<div class="navbar-profile">
+					<div class="profile-emoji"></div>
+					<span class="profile-title">Мой профиль</span>
+					<div class="profile-dropdown"></div>
+				</div>
+			</div>
+			
+			<hr class="navbar-hr">
+
+			<div class="bottom-navbar">
+				<div class="navbar-categories">
+					<div class="categories-svg"></div>
+					<span class="categories-span">Категории товаров</span>
+				</div>
+
+				<ul class="navbar-ul">
+					<li class="navbar-li">Главная</li>
+					<li class="navbar-li">О компании</li>
+					<li class="navbar-li"><img class="navbar-gift" src="./images/navbar-gift.svg" alt="gift">Бонусная система</li>
+					<li class="navbar-li">Поддержка</li>
+					<li class="navbar-li">Контакты</li>
+				</ul>
+
+				<div class="navbar-like-basket">
+					<button class="button-like-basket"><img src="./images/like.svg" alt="like"></button>
+					<button class="button-like-basket"><img src="./images/basket.svg" alt=""></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="second-page">
+		<div class="container">
+			<div class="go-back">
+			<button class="back-button"><a href="index.html"><img src="./images/go-back.svg" alt=""></a></button>
+			<span class="back-title">Главная - Личный кабинет</span>
+			</div>
+		</div>
+		
+		<div class="container-product">
+			<div class="product-inside">
+				<div class="inside-photos">
+						<img src="./images/product-inside-1.png" alt="">
+						<ul class="photos-description">
+							<li class="photos-desc"><img src="./images/desc-1.png" alt=""></li>
+							<li class="photos-desc"><img src="./images/desc-2.png" alt=""></li>
+							<li class="photos-desc"><img src="./images/desc-3.png" alt=""></li>
+							<li class="photos-desc"><img src="./images/desc-4.png" alt=""></li>
+							<li class="photos-desc"><img src="./images/desc-5.png" alt=""></li>
+						</ul>	
+				</div>
+				<div class="inside-description">
+					<ul class="inside-ul">
+						<li class="inside-article">085978891</li>
+						<li class="inside-view">Одежда</li>
+						<li class="inside-stock">новинка</li>
+						<li><img class="inside-heart" src="./images/product-heart.svg" alt=""></li>
+					</ul>
+					<span class="inside-title">Длинное название товара, расположенное на две строки</span>
+					<span class="inside-title-price">10 990 ₸</span>
+					<div class="inside-button">
+						<button class="inside-add">Добавить в корзину</button>
+						<button class="inside-buy">Купить</button>
+					</div>
+					<table class="inside-table">
+							<tr class="main-tr">
+								<th class="left-th">Покрой</th>
+								<th class="right-th">Оверсайз</th>
+							</tr>
+							<tr class="main-tr">
+								<th class="left-th">Фактура материала</th>
+								<th class="right-th">Футер</th>
+							</tr>
+							<tr class="main-tr">
+								<th class="left-th">Декоративные элементы</th>
+								<th class="right-th">Без элементов</th>
+							</tr>
+							<tr class="main-tr">
+								<th class="left-th">Длина изделия по спинке</th>
+								<th class="right-th">70 см</th>
+							</tr>
+							<tr class="main-tr">
+								<th class="left-th">Комплектация</th>
+								<th class="right-th">Худи</th>
+							</tr>
+					</table>
+					<button class="description-btn">Подробнее</button>
+				</div>
+			</div>	
+		</div>
+
+		<div class="container-product">
+			<ul class="second-descritpion">
+				<li class="second-desc" id="second-desc-first">О товаре</li>
+				<li class="second-desc">Характеристики</li>
+				<li class="second-desc">Отзывы</li>
+				<li class="second-desc">Доставка</li>
+			</ul>
+			<div class="product-inside" id="bottom-inside">
+				<img class="bottom-img" src="./images/desc-6.png" alt="">
+				<p>Мужские костюмы в "Джентльменах" прелесть что такое. Эдакая смесь ретро и современности, британщины и брутальщины.
+				Кстати, в фильме есть несколько моментов, которые можно смело позаимствовать в повседневный стиль. Ибо круто. Костюмы пошиты из классических тканей, имеют современный крой, посадку и расцветки. Все вместе это создает просто великолепный микс.
+				</p>	
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-top-contain">
+					<div class="navbar-logo"></div>
+					<ul class="contain-ul">
+						<li class="contain-li">О компании</li>
+						<li class="contain-li">Публичная оферта</li>
+						<li class="contain-li">Блог</li>
+						<li class="contain-li">Для партнеров</li>
+						<li class="contain-li">FAQ</li>
+					</ul>
+					<ul class="media-ul">
+						<li class="media-li"><img src="./images/instagram.svg" alt=""></li>
+						<li class="media-li"><img src="./images/facebook.svg" alt=""></li>
+						<li class="media-li"><img src="./images/twitter.svg" alt=""></li>
+						<li class="media-li"><img src="./images/vk.svg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom-title">
+					<span>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин</span>
+					<span>Политика конфиденциальности</span>
+				</div>
+			</div>
+		</div>	
+	</footer>
+</body>
+</html>
